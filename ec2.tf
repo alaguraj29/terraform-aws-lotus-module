@@ -1,0 +1,8 @@
+resource "aws_instance" "webserver"{
+  ami = var.amiid
+  instance_type = var.instancetype
+  key_name = var.keyname
+  tags = {
+    Name = var.tag
+  }
+}

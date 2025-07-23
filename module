@@ -1,6 +1,0 @@
-git init
-git remote add origin https://github.com/alaguraj29/terraform-aws-lotus-module.git
-git add .
-git commit -m "Initial commit of EC2 + SG module"
-git branch -M main
-git push -u origin main
